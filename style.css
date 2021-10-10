@@ -1,0 +1,58 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQB-7OPzwT8nMgN4l-Ug-OmhnZa8xtBCQA8-w&usqp=CAU);
+}
+#title{
+    color:white;
+    text-align: center;
+}
+#description{
+    color:white;
+    text-align: center;  
+}
+#survey-form{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    color:white; 
+    left: 30%;
+    top: 30%;
+    right:20%;
+    position: absolute;
+    border:1px solid black;
+    background-color:rgb(29, 156, 156);
+}
+#survey-form{
+color:rgb(30, 65, 69);
+}
+#name-label{
+    color: white;
+}
+#name{
+    width: 500px;
+}
+#email-label{
+    color: white;
+}
+#email{
+    width: 500px;
+}
+#number-label{
+    color: white;
+}
+#number{
+    width: 500px;
+}
+#dropdown{
+    width: 500px;
+}
+#ma{
+    width: 500px;
+}
+#mnn{
+    width: 550px;
+}
+#submit{
+    background-color:rgb(3, 81, 100);
+    width: 500px;
+    color:white;
+}

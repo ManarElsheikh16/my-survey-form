@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1 id="title">freeCodeCamp Survey Form</h1> 
+   <p id="description">Thank you for taking the time to help us improve the platform</p>
+   <form id="survey-form" >
+
+     <label id="name-label">Name</label>
+     <br> 
+     <br>
+     <input id="name" type="text" name="Name" placeholder="Enter your name" required>
+     <br>
+     <br>
+
+     <label id="email-label">Email</label>
+    <br>
+    <br>
+    <input id="email" type="email" name="Email" placeholder="Enter yout Email" pattern=".+@globex.com" required>
+    <br>
+    <br>
+
+    <label id="number-label">Age(optional)</label>
+    <br>
+    <br>
+    <input id="number" type="number" name="Age" placeholder="Age" min="1" max="3"  >
+    <br>
+    <br>
+
+    <label style="color: white;">Which option best describes your current role?</label>
+    <br>
+    <br>
+    <select name="Select current role" id="dropdown" aria-placeholder="Select an option">
+       <option disabled>Select current role</option>
+        <option >Student</option>
+        <option >Full Time Job</option>
+        <option >Full Time Learner</option>
+        <option >Prefer not to say</option>
+        <option >Other</option>
+    </select>
+    <br>
+    <br>
+    
+    
+    <label style="color: white;">Would you recommend freeCodeCamp to a friend?</label>
+    <br>
+    <br>
+    <input type="radio" name="ask" value="Definitely"><label style="color: white;">Definitely</label><br>
+    <input type="radio" name="ask" value="Maybe"><label style="color: white;">Maybe</label><br>
+    <input type="radio" name="ask" value="Notsure"><label style="color: white;">Notsure</label><br><br>
+
+
+    <label style="color: white;">What is your favorite feature of freeCodeCamp?</label>
+    <br>
+    <br>
+    <select name="Select an option" id="ma" >
+        <option disabled>Select an option</option>
+        <option style="color: white;">Challengers</option>
+        <option style="color: white;">Projects</option>
+        <option style="color: white;">Community</option>
+        <option style="color: white;">Open Source</option>
+    </select>
+     <br>
+     <br>
+
+
+     <label style="color: white;">What would you like to see improved? (Check all that apply)</label>
+     <br>
+     <br>
+    <input type="checkbox" value="Front-end Projects" >
+    <label style="color: white;">Front-end Projects</label>
+    <br>
+    <input type="checkbox" value="Back-end Projects" >
+    <label style="color: white;">Back-end Projects</label>
+    <br>
+    <input type="checkbox" value="Data Visualization">
+    <label style="color: white;">Data Visualization</label>
+    <br>
+    <input type="checkbox" value="Challenges">
+    <label style="color: white;">Challenges</label>
+    <br>
+    <input type="checkbox" value="Open Source Community">
+    <label style="color: white;"> Open Source Community</label>
+    <br>
+    <input type="checkbox" value="Gitter help rooms">
+    <label style="color:white;">Gitter help rooms</label>
+    <br>
+    <input type="checkbox" value="Videos">
+    <label style="color: white;">Videos</label>
+    <br>
+    <input type="checkbox" value="City Meetups">
+    <label style="color: white;">City Meetups</label>
+    <br>
+    <input type="checkbox" value="Wiki">
+    <label style="color: white;">Wiki</label>
+    <br>
+    <input type="checkbox" value="Forum">
+    <label style="color: white;">Forum</label>
+    <br>
+    <input type="checkbox" value="Additional Courses">
+    <label style="color: white;">Additional Courses</label>
+    <br>
+    <br>
+
+
+    <label style="color: white;">Any comments or suggestions?</label>
+    <br>
+    <br>
+    <textarea cols="30" rows="10"placeholder="Enter your comment here..." id="mnn"></textarea> 
+    <br>
+    <br>
+
+    <input type="submit" id="submit">
+
+   </form>
+</body>
+</html>
